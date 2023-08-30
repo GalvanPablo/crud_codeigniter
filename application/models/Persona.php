@@ -9,4 +9,9 @@ class Persona extends CI_Model {
         $this->db->from('persona');
         return $this->db->get()->result();
     }
+
+    public function eliminar($persona_id){
+        $this->db->where('persona_id', $persona_id);
+        $this->db->delete('persona');
+    }
 }

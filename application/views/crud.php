@@ -50,6 +50,7 @@
                                 <th scope="col">Nombre</th>
                                 <th scope="col">Apellido</th>
                                 <th scope="col">Fecha de Nacimiento</th>
+                                <th scope="col">Acción</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -62,6 +63,7 @@
                                             <td>'.$p->nombre.'</td>
                                             <td>'.$p->apellido.'</td>
                                             <td>'.$p->fecha_nacimiento.'</td>
+                                            <td><a href="'.base_url('crud/eliminar/'.$p->persona_id).'" class="btn btn-danger">Eliminar</a></td>
                                         </tr>
                                     ';
                                 }

@@ -26,5 +26,10 @@ class Crud extends CI_Controller {
 		redirect('crud');
 	}
 
+	public function eliminar($persona_id){
+		$this->Persona->eliminar($persona_id);
+		redirect('crud');
+	}
+
 
 }
