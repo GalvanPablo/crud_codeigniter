@@ -20,3 +20,11 @@ class Persona extends CI_Model {
         $this->db->update('persona', $persona);
     }
 }
+
+/*
+    La BD consta de la tabla 'persona' con los siguientes atributos
+    'persona_id'        int PK NOT NULL AI
+    'nombre'            VARCHAR(45) NOT NULL
+    'apellido'          VARCHAR(45) NOT NULL
+    'fecha_nacimiento'  DATE NOT NULL
+*/
