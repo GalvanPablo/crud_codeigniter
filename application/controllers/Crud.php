@@ -31,5 +31,14 @@ class Crud extends CI_Controller {
 		redirect('crud');
 	}
 
+	public function editar($persona_id){
+		$persona['nombre'] = $this->input->post('nombre');
+		$persona['apellido'] = $this->input->post('apellido');
+		$persona['fecha_nacimiento'] = $this->input->post('fecha_nacimiento');
+
+		$this->Persona->editar($persona, $persona_id);
+		redirect('crud');
+	}
+
 
 }

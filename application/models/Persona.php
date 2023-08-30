@@ -14,4 +14,9 @@ class Persona extends CI_Model {
         $this->db->where('persona_id', $persona_id);
         $this->db->delete('persona');
     }
+
+    public function editar($persona, $persona_id){
+        $this->db->where('persona_id', $persona_id);
+        $this->db->update('persona', $persona);
+    }
 }
