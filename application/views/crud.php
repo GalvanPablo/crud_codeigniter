@@ -21,15 +21,15 @@
                 <div class="row">
                     <div class="form-group col-sm-3">
                         <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" require>
+                        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" required>
                     </div>
                     <div class="form-group col-sm-3">
                         <label for="apellido">Apellido</label>
-                        <input type="text" name="apellido" id="apellido" class="form-control" placeholder="Apellido" require>
+                        <input type="text" name="apellido" id="apellido" class="form-control" placeholder="Apellido" required>
                     </div>
                     <div class="form-group col-sm-3">
                         <label for="fecha_nacimiento">Fecha de Nacimiento</label>
-                        <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" class="form-control" require>
+                        <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" class="form-control" required>
                     </div>
                     <div class="form-group col-sm-3">
                         <label for="">Opciones</label>
